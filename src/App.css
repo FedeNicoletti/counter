@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  margin: 0;
+  background-color: #126FA3;
+}
+
+.main-container{
+  height: 550px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App{
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  font-family: Lato, sans-serif;
+  }
+
+
+  .click-logo-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+  }
+
+  .click-logo{
+    height: 12em;
+    min-width: 20em;
+    opacity: 0.3;
+    border-radius: 1.1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
